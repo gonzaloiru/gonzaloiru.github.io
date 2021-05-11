@@ -1,18 +1,17 @@
 <html>
+
 <head>
+<style type="text/css">
+  #chart-container { width: 100%; height: 260px; display: block; position:absolute; bottom:0; top:0; left:0; right:0; margin: 5px 15px 15px 0; overflow: hidden; }
+  #chart-container1 { width: 100%; height: 260px; display: block; position:absolute; bottom:0; top:260px; left:0; right:0; margin: 5px 15px 15px 0; overflow: hidden; }
+</style>
 </head>
+
 <body>
-<table border=2 bordercolor="#0000FF">
-	<tr>
-		<td>
-			<iframe width="330" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/668661/charts/2?bgcolor=%23ffffff&color=%23d62020&days=30&dynamic=true&type=column&height=260&width=330"></iframe>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<iframe width="330" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/668661/charts/3?bgcolor=%23ffffff&color=%23d62020&days=30&dynamic=true&type=column&height=260&width=330"></iframe>
-		</td>
-	</tr>
-</table>
+
+  <div id="chart-container"><iframe width="100%" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/337556?height=auto&width=auto"></iframe></div>
+  <div id="chart-container1"><iframe width="100%" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/337557?height=auto&width=auto"></iframe></div>
+
 </body>
+
 </html>
